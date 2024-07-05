@@ -110,7 +110,7 @@ async def next_page(bot, query):
         [
            
             #InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/show_time_network/7'),
-            InlineKeyboardButton(text="🔞Adult Channel🔞", url='https://t.me/+OxAH8k9on-UwYzM1')
+            InlineKeyboardButton(text="🔞Adult Channel🔞", url='https://t.me/+wwGkfMfGlaFlNGVi')
         ]
     )
 
@@ -691,7 +691,7 @@ async def auto_filter(client, msg, spoll=False):
     btn.insert(0,
         [
            # InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/show_time_network/7'),
-            InlineKeyboardButton(text="🔞Adult Channel🔞", url='https://t.me/+OxAH8k9on-UwYzM1')
+            InlineKeyboardButton(text="🔞Adult Channel🔞", url='https://t.me/+wwGkfMfGlaFlNGVi')
         ]
     )
 
