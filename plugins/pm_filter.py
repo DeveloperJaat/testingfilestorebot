@@ -110,7 +110,7 @@ async def next_page(bot, query):
         [
            
             #InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/show_time_network/7'),
-            InlineKeyboardButton(text="🔞Adult Channel🔞", url='https://t.me/+n2JK67S5lW85YmI1')
+            InlineKeyboardButton(text="🔴Movies Channel🔴", url='https://t.me/showtimelatest')
         ]
     )
 
@@ -691,9 +691,9 @@ async def auto_filter(client, msg, spoll=False):
     btn.insert(0,
         [
            # InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/show_time_network/7'),
-            InlineKeyboardButton(text="🔞Adult Channel🔞", url='https://t.me/+n2JK67S5lW85YmI1')
+             InlineKeyboardButton(text="🔴Movies Channel🔴", url='https://t.me/showtimelatest')
+
         ]
-    )
 
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
