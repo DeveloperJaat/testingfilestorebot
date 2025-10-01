@@ -694,7 +694,8 @@ async def auto_filter(client, msg, spoll=False):
            InlineKeyboardButton(text="🔴Movies Channel🔴", url='https://t.me/showtimelatest')
 
         ]
-
+    )
+    
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
         BUTTONS[key] = search
